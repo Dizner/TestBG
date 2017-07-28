@@ -10,7 +10,7 @@
         android:id="@+id/fl_main_layout"
         android:layout_width="match_parent"
         android:layout_weight="1"
-        android:visibility="gone"
+        android:visibility="visible"
         android:layout_height="0dp"/>
     <include layout="@layout/view_line_gray"/>
     <LinearLayout

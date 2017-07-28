@@ -121,9 +121,9 @@ public class MainActivity extends AppCompatActivity implements IViewInterface {
                 switchFragment(2);
                 break;
             case R.id.ll_main_btn_tab4:
-                skipActivity(TestActivity.class);
+//                skipActivity(TestActivity.class);
 //                startActivity(new Intent(this, TestActivity.class));
-//                switchFragment(3);
+                switchFragment(3);
                 break;
         }
     }

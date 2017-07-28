@@ -65,7 +65,7 @@ public class SwipeBackLayout extends ViewGroup {
 
     private DragDirectMode dragDirectMode = DragDirectMode.EDGE;
 
-    private DragEdge dragEdge = DragEdge.TOP;
+    private DragEdge dragEdge = DragEdge.LEFT;
 
     public void setDragEdge(DragEdge dragEdge) {
         this.dragEdge = dragEdge;
